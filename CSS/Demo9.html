@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*有冒号的都是伪类*/
+     /*   正数第2个
+    li:nth-child(2){
+        color: red;
+    }
+    倒数第3个
+    li:nth-last-child(3){
+        color: blue;
+    }*/
+    /*基数*/
+    li:nth-child(odd){
+        color: red;
+    }
+    /*偶数*/
+    li:nth-last-child(even){
+        color: blue;
+    }
+    p:nth-of-type(odd){
+        color: aqua;
+    }
+    p:nth-of-type(even){
+        color: chartreuse;
+    }
+    p{
+        height: 30px;
+    }
+    :empty{
+        background-color: gray;
+    }
+    </style>
+</head>
+
+<body>
+    动作电影列表
+    <ul>
+        <li>一代宗师</li>
+        <li>叶问3</li>
+        <li>复联III</li>
+    </ul>
+    卡通电影列表
+    <ul>
+        <li>冰河世纪V</li>
+    </ul>
+    情感电影列表
+    <ul>
+        <li>蜡笔小新</li>
+        <li>小猪佩奇</li>
+        <li>海贼王</li>
+    </ul>
+    <p>AAAAAAAAAAAAAAAA</p>
+    <p>BBBBBBBBBBBBBBBB</p>
+    <p>CCCCCCCCCCCCCCCC</p>
+    <p>DDDDDDDDDDDDDDDD</p>
+    <p>EEEEEEEEEEEEEEEE</p>
+    <p>FFFFFFFFFFFFFFFF</p>
+</body>
+
+</html>
